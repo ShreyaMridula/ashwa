@@ -43,7 +43,12 @@ export function Contact() {
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-900 mb-1">Phone</h4>
-                    <p className="text-gray-600">+91 97917 14404</p>
+                    <a 
+  href="tel:+919791714404"
+  className="text-gray-600 hover:text-[#E53935] transition-colors"
+>
+  +91 97917 14404
+</a>
                   </div>
                 </div>
 
@@ -54,7 +59,14 @@ export function Contact() {
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-900 mb-1">Email</h4>
-                    <p className="text-gray-600">hotelashwa2025@gmail.com</p>
+                    <a 
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=hotelashwa2025@gmail.com&su=Inquiry from Hotel Ashwa&body=Hello, I would like to know more about your restaurant."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-gray-600 hover:text-[#E53935] transition-colors"
+>
+  hotelashwa2025@gmail.com
+</a>
                   </div>
                 </div>
 
@@ -66,12 +78,38 @@ export function Contact() {
                   <div>
                     <h4 className="font-bold text-gray-900 mb-1">Opening Hours</h4>
                     <p className="text-gray-600">Monday - Sunday</p>
-                    <p className="text-gray-600">8:00 AM - 9:30 PM</p>
+                    <p className="text-gray-600">5:30 AM - 11:00 PM</p>
                     <p className="text-sm text-[#E53935] mt-2">Open all days</p>
                   </div>
                 </div>
               </div>
             </div>
+            {/* Bulk Orders Highlight */}
+<div className="bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-2xl p-6 lg:p-8 shadow-xl relative overflow-hidden">
+  
+  {/* Decorative circle (like combo card style) */}
+  <div className="absolute -top-10 -right-10 w-32 h-32 bg-yellow-300 opacity-30 rounded-full"></div>
+
+  <div className="relative z-10">
+    <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-3">
+      Bulk Orders Available[Min 20 People]
+    </h3>
+
+    <p className="text-gray-800 text-lg mb-4">
+      Planning a function, office event or family gathering?
+    </p>
+
+    <div className="bg-white rounded-xl px-6 py-4 shadow-md inline-block">
+      <p className="text-gray-700 text-sm mb-1">Call for Bulk Orders</p>
+      <a
+        href="tel:+919791714404"
+        className="text-2xl font-bold text-[#E53935] hover:underline"
+      >
+        +91 9941739837
+      </a>
+    </div>
+  </div>
+</div>
             
           </div>
 
@@ -83,7 +121,7 @@ export function Contact() {
                 <h3 className="text-2xl font-bold text-gray-700 mb-2">Location Map</h3>
                 <p className="text-gray-600 mb-6">59, Cholambedu Rd, Krishnapuram Extension, Tiruvenkadam Nagar, Ambattur,Chennai, Tamil Nadu 600020</p>
                 <a 
-  href="https://www.google.com/maps?q=59+Cholambedu+Rd+Krishnapuram+Extension+Tiruvenkadam+Nagar+Ambattur+Chennai+Tamil+Nadu+600020"
+  href="https://www.google.com/maps/place/Hotel+Ashwa/@13.1183146,80.1466134,19.25z/data=!4m10!1m2!2m1!1shotel+Ashwa+-+Google+Maps!3m6!1s0x3a52630015690c93:0x74436b1041fdd34d!8m2!3d13.1184127!4d80.147281!15sChlob3RlbCBBc2h3YSAtIEdvb2dsZSBNYXBzIgOIAQHgAQA!16s%2Fg%2F11yz8yc8p6?entry=ttu&g_ep=EgoyMDI2MDMwMi4wIKXMDSoASAFQAw%3D%3D"
   target="_blank" 
   rel="noopener noreferrer"
   className="inline-block bg-[#E53935] text-white px-6 py-3 rounded-full font-medium hover:bg-[#D32F2F] transition-colors"

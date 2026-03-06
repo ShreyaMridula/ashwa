@@ -10,12 +10,12 @@ const popularItems: PopularItem[] = [
   {
     name: 'Idli',
     description: 'Soft, fluffy steamed idli served with sambar and chutney',
-    imageUrl: 'public/idli.png',
+    imageUrl: '/idli.png',
   },
   {
     name: 'Dosa',
     description: 'Crispy golden dosa with sambar and chutney',
-    imageUrl: 'public/dosa.png',
+    imageUrl: '/dosa.png',
   },
   {
     name: 'Pongal',
@@ -23,14 +23,14 @@ const popularItems: PopularItem[] = [
     imageUrl: '/pongal.png',
   },
   {
-    name: 'Vada',
-    description: 'Crispy fried vada with sambar',
-    imageUrl: '/vada.png',
-  },
-  {
     name: 'Meals',
     description: 'Complete South Indian thali with rice, curries, and accompaniments',
     imageUrl: '/meals.png',
+  },
+  {
+    name: 'Variety Rice',
+    description: 'A delicious mix of different rice varieties, bursting with flavor',
+    imageUrl: '/varietyrice .png',
   },
 ];
 

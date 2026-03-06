@@ -3,7 +3,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 export function Hero() {
-  const images = ["/food1.png", "/food2.png", "/food3.png", "/food4.png"];
+  const images = ["/food1.png", "/food2.png", "/food3.png", "/food4.png","/food5.png","/food6.png"];
 
   const [current, setCurrent] = useState(0);
 
@@ -103,7 +103,13 @@ export function Hero() {
         <div className="relative flex justify-center items-center">
 
           {/* 🔥 Soft Background Glow */}
-          <div className="absolute w-[500px] h-[500px] bg-[#b8d8b8] rounded-full blur-2xl opacity-70"></div>
+          <div className="absolute 
+w-[220px] h-[220px] 
+sm:w-[320px] sm:h-[320px] 
+md:w-[420px] md:h-[420px] 
+lg:w-[500px] lg:h-[500px] 
+bg-[#b8d8b8] rounded-full blur-2xl opacity-70">
+</div>
 
           {/* LEFT BUTTON */}
           <button
